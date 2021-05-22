@@ -1,12 +1,7 @@
-import { Fragment } from 'react';
+import classes from './logo.module.css';
 
-function Layout(props) {
-  return (
-    <Fragment>
-      <MainNavigation />
-      <main>{props.children}</main>
-    </Fragment>
-  );
+function Logo() {
+  return <div className={classes.logo}>Aleš's Next Blog</div>;
 }
 
-export default Layout;
+export default Logo;
