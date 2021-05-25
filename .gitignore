@@ -34,4 +34,4 @@ yarn-error.log*
 .vercel
 
 #api
-/pages/api
+pages/api
