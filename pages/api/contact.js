@@ -1,3 +1,6 @@
-function handler(req, res) {}
+function handler(req, res) {
+  if (req.method === 'POST') {
+  }
+}
 
 export default handler;
